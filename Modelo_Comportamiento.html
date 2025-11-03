@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Modelo de Comportamiento - ITSB</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+</head>
+
+<body class="main-layout">
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+
+    <header>
+        <div id="main-header"></div> 
+    </header>
+
+    <div class="content-page-wrapper">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="sidebar-toc">
+                        <h3>Índice del Modelo de Comportamiento</h3>
+                        <ul class="toc-list">
+                            <li><a href="#dfd-niveles">Diagrama de Flujo por Niveles</a></li>
+                            <li><a href="#der">Diagrama Entidad Relación (DER)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="content-section">
+                        <h2>Modelo de Comportamiento (MC)</h2>
+                        <p>El Modelo de Comportamiento se encarga de describir el **funcionamiento interno** del sistema, detallando cómo se mueven y se transforman los datos, así como la estructura lógica de los datos a almacenar.</p>
+                        <hr>
+                    </div>
+
+                    <div id="dfd-niveles" class="diagram-box">
+                        <h3>Diagrama de Flujo de Datos por Niveles</h3>
+                        <p><strong>Teoría:</strong> Muestra la descomposición jerárquica del sistema. Inicia con el DFD Nivel 0 (la vista de los procesos principales) y se descompone en DFD Nivel 1, Nivel 2, y así sucesivamente, hasta llegar a procesos elementales que ya no pueden ser descompuestos (primitivas).</p>
+                        <p>Esta herramienta visualiza la forma en que los datos entran, se procesan y salen del sistema, facilitando la comprensión de la funcionalidad.</p>
+                        <div class="responsive-diagram">
+                            [Espacio reservado para Diagramas de Flujo de Datos (Nivel 0, Nivel 1, etc.)]
+                        </div>
+                    </div>
+
+                    <div id="der" class="diagram-box">
+                        <h3>Diagrama Entidad Relación (DER)</h3>
+                        <p><strong>Teoría:</strong> El DER es una representación gráfica de la **estructura de los datos** del sistema. Identifica las **entidades** (objetos de interés como Clientes, Productos, Pedidos), sus **atributos** (las propiedades de la entidad) y las **relaciones** entre ellas (uno a uno, uno a muchos, muchos a muchos).</p>
+                        <p>Aunque es una técnica de Modelado de Datos, se incluye en esta etapa para definir la estructura de la futura base de datos del sistema.</p>
+                        <div class="responsive-diagram">
+                            [Espacio reservado para el Diagrama Entidad Relación]
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="main-footer"></div> 
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script> 
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script> <script>
+        $(function () {
+            $("#main-header").load("header.html");
+            $("#main-footer").load("footer.html"); 
+        });
+    </script>
+    
+</body>
+</html>

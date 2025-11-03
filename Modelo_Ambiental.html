@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>Modelo Ambiental - ITSB</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://netdnbootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+
+</head>
+
+<body class="main-layout">
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="#" /></div>
+    </div>
+
+    <header>
+        <div id="main-header"></div> 
+    </header>
+
+    <div class="content-page-wrapper">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div class="sidebar-toc">
+                        <h3>Índice del Modelo Ambiental</h3>
+                        <ul class="toc-list">
+                            <li><a href="#propositos"> Declaración de Propósitos (D.P)</a></li>
+                            <li><a href="#contexto"> Diagrama de Contexto (D.C)</a></li>
+                            <li><a href="#acontecimientos"> Lista de Acontecimientos (L.A)</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-9">
+                    <div class="content-section">
+                        <h2>Modelo Ambiental</h2>
+                        <p>El Modelo Ambiental es el primer paso en el Análisis Estructurado, cuyo objetivo es definir los límites, las metas y las interacciones del sistema propuesto con el entorno. Establece "qué" debe hacer el sistema sin entrar en detalles de "cómo" lo hará.</p>
+                        <hr>
+                    </div>
+
+                    <div id="propositos" class="diagram-box">
+                        <h3>1 Declaración de Propósitos (D.P)</h3>
+                        <p><strong>Teoría:</strong> Documento conciso que establece las metas y objetivos de alto nivel del nuevo sistem Responde a la pregunta: "¿Por qué se está construyendo este sistema?" y establece el criterio de éxito del proyecto. Debe ser la visión acordada entre analistas y usuarios.</p>
+                        <p>Ejemplo de contenido: *El propósito del nuevo Sistema de Gestión de Inventario es reducir el tiempo de registro de entrada y salida de materiales en un 30% e incrementar la precisión del inventario físico al 95%, facilitando la toma de decisiones sobre reposición de stock.*</p>
+                        <div class="responsive-diagram">
+                            [Espacio reservado para Declaración de Propósitos de la Empresa]
+                        </div>
+                    </div>
+
+                    <div id="contexto" class="diagram-box">
+                        <h3>2 Diagrama de Contexto (D.C)</h3>
+                        <p><strong>Teoría:</strong> Representación gráfica que muestra el sistema como un único proceso central. Identifica todas las entidades externas (personas, sistemas o dispositivos) que interactúan con el sistema y los flujos de datos principales que cruzan su fronter Es fundamental para delimitar claramente el alcance.</p>
+                        <div class="responsive-diagram">
+                            [Espacio reservado para el Diagrama de Contexto]
+                        </div>
+                    </div>
+
+                    <div id="acontecimientos" class="diagram-box">
+                        <h3>3 Lista de Acontecimientos (L.A)</h3>
+                        <p><strong>Teoría:</strong> Un listado de todos los eventos externos que el sistema debe reconocer y a los que debe responder. Estos eventos pueden ser temporales (un reporte mensual), de flujo de datos (el cliente envía un pedido) o de control (un sensor detecta un fallo). Esta lista es clave para desarrollar el modelo de comportamiento posterior.</p>
+                        <div class="responsive-diagram">
+                            [Espacio reservado para la Lista de Acontecimientos]
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="main-footer"></div> 
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.0.0.min.js"></script> 
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/custom.js"></script> <script>
+        $(function () {
+            $("#main-header").load("header.html");
+            $("#main-footer").load("footer.html"); 
+        });
+    </script>
+    
+</body>
+</html>
